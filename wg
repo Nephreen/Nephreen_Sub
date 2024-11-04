@@ -1,0 +1,27 @@
+# TorGuard WireGuard Config
+[Interface]
+PrivateKey = oAOk+FiBn6MhojCIO630QNv/ttpdqOa9Alw/V0wsu2Y=
+ListenPort = 57917
+MTU = 1390
+DNS = 10.8.0.1
+Address = 10.13.50.165/24
+
+[Peer]
+PublicKey = zUsrpdeAaLUtKf+OBA9xB+jIJE8+nJyCxaErbFsnQ2c=
+AllowedIPs = 0.0.0.0/0
+Endpoint = 31.14.252.90:1337
+PersistentKeepalive = 25
+
+# TorGuard WireGuard Config
+[Interface]
+PrivateKey = qPx41b18onHueHZ4Mv074w6zpXb7/m2NyV6d94srSHA=
+ListenPort = 53338
+MTU = 1390
+DNS = 10.8.0.1
+Address = 10.13.73.57/24
+
+[Peer]
+PublicKey = +hqDU9E8GLXmj+DoRbTwmowFusw8G+gPSyPqlBsKSzM=
+AllowedIPs = 0.0.0.0/0
+Endpoint = 193.239.84.106:1337
+PersistentKeepalive = 25
